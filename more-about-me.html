@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About Me</title>
+</head>
+<body>
+    <h1>More About Me</h1>
+    <h3>Institutions Studied In</h3>
+    <table border="1">                <!--    border=" " - deprecated -->
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Name of Institution</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2018 - 2020</td>
+                <td>Mar Baselious College of Engineering and Technology</td>
+            </tr>
+            <tr>
+                <td>2008 - 2018</td>
+                <td>Kendriya Vidyalaya, Pattom</td>
+            </tr>
+            <tr>
+                <td>2005 - 2008</td>
+                <td>Kendriya Vidyalaya, Mangalore</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr size="2" noshade>
+    <h3>Contact Info</h3>
+    <table cellspacing="10">
+        <tbody>
+            <tr>
+                <td><strong>Address</strong></td>
+                <td>8-D, Block B, Sreeedhanya Homes, Kallampally, Medical College P.O, 695017</td>
+            </tr>
+            <tr>
+                <td><strong>Mobile No.</strong></td>
+                <td>9947943982</td>
+            </tr>
+            <tr>
+                <td><strong>E-mail</strong></td>
+                <td>abhib607@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr size="2" noshade>
+    <h3>Send a Message</h3>
+    <form action="mailto:abhib607@gmail.com" method="post" enctype="text/plain">  
+        <label for="theName">Your Name : </label>
+        <input type="text" name="Name" id="theName"><br><br>
+        <label for="theEmail">Your Email : </label>
+        <input type="email" name="Email" id="theEmail"><br><br>
+        <label for="theMessage">Your Message</label><br><b></b>
+        <textarea name="Message" id="theMessage" cols="30" rows="5"></textarea><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
